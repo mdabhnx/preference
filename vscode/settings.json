@@ -1,0 +1,87 @@
+{
+  "json.schemaDownload.enable": true,
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "none",
+  "editor.minimap.enabled": false,
+  "workbench.sideBar.location": "right",
+  "editor.cursorStyle": "underline",
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "workbench.iconTheme": "vscode-great-icons",
+  "editor.fontLigatures": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.stickyScroll.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.confirmSync": false,
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "push:command"
+  ],
+  "editor.suggest.matchOnWordStartOnly": false,
+  "css.lint.unknownAtRules": "ignore",
+  "react-native-tools.showUserTips": false,
+  "editor.linkedEditing": true,
+  "javascript.suggestionActions.enabled": false,
+  "typescript.suggestionActions.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "cSpell.userWords": [],
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.tabSize": 2,
+  "hediet.vscode-drawio.resizeImages": null,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "prettier.useEditorConfig": false,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.semi": true,
+  "prettier.singleQuote": false
+}
